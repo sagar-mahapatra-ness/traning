@@ -1,0 +1,11 @@
+https://www.coindesk.com/information/what-is-bitcoin/
+
+But a general ledger has to be trusted, and all of this is held digitally. How can we be sure that the blockchain stays intact, and is never tampered with? This is where the miners come in.
+
+When a block of transactions is created, miners put it through a process. They take the information in the block, and apply a mathematical formula to it, turning it into something else. That something else is a far shorter, seemingly random sequence of letters and numbers known as a hash. This hash is stored along with the block, at the end of the blockchain at that point in time.
+
+Hashes have some interesting properties. It’s easy to produce a hash from a collection of data like a bitcoin block, but it’s practically impossible to work out what the data was just by looking at the hash. And while it is very easy to produce a hash from a large amount of data, each hash is unique. If you change just one character in a bitcoin block, its hash will change completely.
+
+Miners don’t just use the transactions in a block to generate a hash. Some other pieces of data are used too. One of these pieces of data is the hash of the last block stored in the blockchain.
+
+Because each block’s hash is produced using the hash of the block before it, it becomes a digital version of a wax seal. It confirms that this block – and every block after it – is legitimate, because if you tampered with it, everyone would know.
